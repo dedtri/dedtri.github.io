@@ -7,13 +7,13 @@ import {IoMailSharp} from 'react-icons/io5'
 import {MdWork} from 'react-icons/md'
 import {useState} from 'react'
 
-const nav = () => {
-  const [activeNav, setActiveNav] = useState('#')
+const Nav = () => {
+  const [activenav, setactivenav] = useState('#')
   return (
     <nav>
     {/* Here we use a useState from react to actively change classes based on boolean statement */}
-    <a href="#" className={activeNav === '#' ? 'active' : ''}><IoHomeSharp/></a>
-    <a href="#about" onClick={() => setActiveNav('#about')}><FaUserTie/></a>
+    <a href="#" className={activenav === '#' ? 'active' : ''}><IoHomeSharp/></a>
+    <a href="#about" onClick={() => setactivenav('#about')}><FaUserTie/></a>
     <a href="#experience"><FaBrain/></a>
     <a href="#portfolio"><MdWork/></a>
     <a href="#contact"><IoMailSharp/></a>
@@ -21,4 +21,4 @@ const nav = () => {
   )
 }
 
-export default nav
+export default Nav

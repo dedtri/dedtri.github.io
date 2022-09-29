@@ -21,7 +21,16 @@ header {
 
 /* HeaderSocial Styling */
 
+.header__socials::before {
+    content: "";
+    width: 1px;
+    height: 5rem;
+    background: var(--color-primary);
+}
+
+
 .header__socials {
+    font-size: 1.5rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -34,7 +43,7 @@ header {
 .header__socials::after {
     content: '';
     width: 1px;
-    height: 2rem;
+    height: 5rem;
     background: var(--color-primary);
 }
 
