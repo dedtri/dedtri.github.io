@@ -18,7 +18,7 @@ const header = () => {
         <img src={avi} alt=""></img>
         </div>
 
-        <a href='#contact' className='scroll__down'>Scroll Down</a>
+        <a href='#contact' className='scroll__down'>Surprise Me!</a>
 
 
       </div>
