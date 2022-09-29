@@ -2,6 +2,7 @@ import React from 'react'
 import './header.css'
 import CTA from './CTA'
 import avi from '../../assets/avi.png'
+import Headersocials from './headersocials'
 
 const header = () => {
   return (
@@ -11,6 +12,7 @@ const header = () => {
         <h1>Martin The Khang Nguyen</h1>
         <h5 className="text-light">Fullstack Developer</h5>
         <CTA />
+        <Headersocials />
 
         <div className='avi'>
         <img src={avi} alt=""></img>

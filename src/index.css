@@ -15,8 +15,9 @@
 :root {
     /* --color-bg: #1f1f38; */
     --color-bg: #1f0331;
+    --color-bg2: #490970;
     --color-bg-variant: #2c2c6c;
-    --color-primary: #98bcff;
+    --color-primary: #3db9f3;
     --color-primary-variant: #rgba(77, 181, 255, 0.4);
     --color-white: #fff;
     --color-light: rgba(255, 255, 255, 0.6);
@@ -122,7 +123,8 @@ img {
     }
 
     section {
-        margin-top: 6rem;
+        margin-top: 8rem;
+        height: 100vh;
     }
 }
 
