@@ -4,7 +4,7 @@ import CTA from './CTA'
 import avi from '../../assets/avi.png'
 import Headersocials from './headersocials'
 
-const header = () => {
+const Header = () => {
   return (
     <header>
       <div className="container header__container">
@@ -18,7 +18,7 @@ const header = () => {
         <img src={avi} alt=""></img>
         </div>
 
-        <a href='#contact' className='scroll__down'>Surprise Me!</a>
+        {/* <a href='#contact' className='scroll__down'>Surprise Me!</a> */}
 
 
       </div>
@@ -26,4 +26,4 @@ const header = () => {
   )
 }
 
-export default header
+export default Header

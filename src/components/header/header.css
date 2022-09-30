@@ -47,6 +47,11 @@ header {
     background: var(--color-primary);
 }
 
+.header__socials a:hover {
+    color: purple;
+    font-size: 4rem;
+}
+
 /* avi styling */
 
 .avi {
