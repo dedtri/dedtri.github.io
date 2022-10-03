@@ -1,0 +1,9 @@
+#show {
+    display: none
+  }
+  #main:hover + #show {
+    display: block
+  }
+  #main:hover ~ #hide {
+    display: none
+  }
