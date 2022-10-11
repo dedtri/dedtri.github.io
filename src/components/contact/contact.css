@@ -1,4 +1,9 @@
+#contact h2 {
+    padding-top: 5rem;
+  }
+
 .container.contact__container {
+    padding-top: 5rem;
     width: 58%;
     display: grid;
     grid-template-columns: 30% 58%;
@@ -8,7 +13,18 @@
 .contact__mail {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     gap: 1.2rem;
+}
+
+.mailsent__box {
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    position: fixed;
+    text-align: center;
+    background: rgb(0, 0, 0, 0.7);
+    font-size: 70px;
 }
 
 .mail {
@@ -21,8 +37,8 @@
 }
 
 .mail:hover {
-    background: transparent;
-    border-color: var(--color-primary-variant);
+    background: var(--color-bg2);
+    border-color: var(black);
 }
 
 .mail__icon {
@@ -37,9 +53,43 @@
 }
 
 .contact__form {
+    border: 5px solid rgb(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background: rgb(0, 0, 0, 0.4);
     display: flex;
     flex-direction: column;
     gap: 1.2rem;
+    padding: 10px;
+}
+
+.contact__form div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact__form button {
+    width: max-content;
+    display: inline-block;
+    padding: 0.75rem 1.2rem;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    color: var(black);
+
+    background: linear-gradient(to right, rgb(18, 0, 119) 50%, var(--color-primary) 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all .3s ease-out;
+}
+
+.contact__form button:hover {
+    background-position: left bottom;
+    color: white;
+}
+
+.contact__form button:active {
+    transition: all 0s ease-out;
+    background: rgb(0, 0, 0, 0.4);
+    color: white;
 }
 
 input, textarea {
@@ -53,13 +103,7 @@ input, textarea {
 }
 
 .form__name {
-    width: 50%;
-    padding: 1.5rem;
-    border-radius: 0.5rem;
-    background: transparent;
-    border: 2px solid var(--color-primary-variant2);
-    resize: none;
-    color: var(--color-white)
+    width: 49%;
 }
 
 /* MEDIA QUERIES (MEDIUM DEVICES) */
