@@ -24,16 +24,16 @@ const Aboutme = () => {
         </div>
         <div className="about__content">
 <div className="about__cards">
-  <article className='about__card'id='card__1' >
+  <div className='about__card' id='card__2' >
     <IoBookSharp className='about__icon'/>
     <h5>Experience</h5>
     <small>2+ Years Coding</small>
-  </article>
-  <article className='about__card' id='card__2'>
+  </div>
+  <div className='about__card' id='card__1'>
     <FaCameraRetro className='about__icon'/>
     <h5>Secondary skills</h5>
     <small>Video and Photo Editing</small>
-  </article>
+  </div>
   <article className='about__card' id='card__3'>
     <FaFolderOpen className='about__icon'/>
     <h5>Projects</h5>

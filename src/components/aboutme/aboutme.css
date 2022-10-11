@@ -47,6 +47,7 @@
     padding: 2rem;
     text-align: center;
     transition: var(--transition);
+    display: block;
 }
 
 .about__card:hover {
@@ -73,9 +74,8 @@
 
 
 
-#card__2:hover ~ #card__1 {
-    display: none
-  }
+
+
 
 /* MEDIA QUERIES (MEDIUM DEVICES) */
 @media screen and (max-width: 1024px) {
