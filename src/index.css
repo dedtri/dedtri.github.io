@@ -10,8 +10,6 @@
     text-decoration: none;
 }
 
-/* :root would affect any changes to the entire website */
-
 :root {
     /* --color-bg: #1f1f38; */
     --color-bg: #1f0331;
