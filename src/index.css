@@ -115,6 +115,25 @@ a:hover {
     color: var(--color-bg);
 }
 
+.btn-variant {
+    width: max-content;
+    display: inline-block;
+    padding: 0.75rem 1.2rem;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    color: black;
+
+    background: linear-gradient(to right, rgb(18, 0, 119) 50%, var(--color-primary) 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all .3s ease-out;
+}
+
+.btn-variant:hover {
+    background-position: left bottom;
+    color: white;
+}
+
 img {
     display: block;
     width: 100%;

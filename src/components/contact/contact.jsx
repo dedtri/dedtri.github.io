@@ -41,7 +41,7 @@ const Contact = () => {
   return (
     <section id='contact'>
       
-      <h2>Contact me</h2>
+      <h2>Let's get in touch</h2>
 
       <div className="container contact__container">
         <div className="contact__mail">
@@ -66,7 +66,7 @@ const Contact = () => {
         </div>
         <input type="text" name='subject' placeholder='Subject' required/>
         <textarea name='message' rows="7" placeholder='Message' required></textarea>
-        <button type='submit' className='' id='submit__button' onClick="">Send Message!</button>
+        <button type='submit' className='btn-variant' id='submit__button' onClick="">Send message!</button>
         </form>
 
    {isAlertVisible &&  

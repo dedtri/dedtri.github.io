@@ -93,12 +93,20 @@
 /* MEDIA QUERIES (SMALL DEVICES) */
 @media screen and (max-width: 600px) {
     .about__me {
-        width: 65%;
+        width: 70%;
         margin: 0 auto 3rem;
     }
 
     .about__cards {
-        width: 65%;
-        margin: 0 auto 3rem;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0px;
+    }
+
+    .about__card {
+        height: 65%;
+        width: 90%;
+        border: 1px solid transparent;
+        border-radius: 1rem;
     }
 }
